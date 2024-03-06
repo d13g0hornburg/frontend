@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* 
+
+TELAS PEQUENAS: ATÉ 600px
+CELULAR: DE 600px a 768px
+TABLET: DE 768px a 1200px
+TELAS GRANDES: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: nome;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+    

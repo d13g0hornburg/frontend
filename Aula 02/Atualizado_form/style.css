@@ -35,8 +35,8 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(fundo.jpg) no-repeat;
-    background-position: left bottom;
+    background: #000000 url(fundo.jpg) no-repeat;
+    background-position:center;
     height: 200px;
 
 }
@@ -52,7 +52,7 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
-    color: #5f2c82;
+    color: #000000;
 }
 
 div#login, ::placeholder {
@@ -63,7 +63,7 @@ div#login, ::placeholder {
 div#senha, ::placeholder  {
     text-align: center;
     font-weight: bold;
-    color: #5f2c82;
+    color: #000000;
 }
 
 div#login > input {
@@ -71,7 +71,7 @@ div#login > input {
     height: 40px;
     padding-top: 0px;
     margin-top: 5px;
-    border-color: #5f2c82;
+    border-color: #000000;
     border-radius: 20px;
     margin: 10px auto
 }
@@ -81,60 +81,45 @@ div#senha > input {
     height: 40px;
     padding-top: 0px;
     margin-top: 5px;
-    border-color: #5f2c82;
+    border-color: #000000;
     border-radius: 20px;
-    margin: 10px auto
+    margin: 5px auto
 }
 
 i {
     position: inherit ;
     font-size: 25px;
-    color: #5f2c82;
+    color: #000000;
 }
 
-
-
-
-form > input[type=submit] {
+form > input[type=submit], a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
     width: 60%;
-    height: 40px;
+    height: 30px;
     padding-top: 0px;
     margin-top: 5px;
-    background-color: #5f2c82;
+    background-color: #000000;
     color: white;
     border-radius: 5px;
-    border: none;
+    border-color: #000000;
+    border-width: 1px;
+    text-decoration: none;
     margin: 10px auto
 
 }
 
 form > input[type=submit]:hover{
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
-}
-
-
-form > a.botao {
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    width: 60%;
-    height: 40px;
-    background-color: #5f2c82;;
-    padding-top: 5px;
-    margin-top: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    margin: 10px auto
+    color: black;
 }
 
 form > a.botao:hover {
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
+    color: black
 }
 
 

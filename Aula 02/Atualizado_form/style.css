@@ -8,7 +8,7 @@
 }
 
 body, html {
-    background-color: #e6e3e3;
+    background-image: linear-gradient(to right, #4b4a4a, #000000);
     height: 100vh;
     width: vw;
 }
@@ -103,8 +103,7 @@ form > input[type=submit], a.botao {
     background-color: #000000;
     color: white;
     border-radius: 5px;
-    border-color: #000000;
-    border-width: 1px;
+    border: none;
     text-decoration: none;
     margin: 10px auto
 
@@ -119,7 +118,7 @@ form > input[type=submit]:hover{
 form > a.botao:hover {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
-    color: black
+    color: black;
 }
 
 

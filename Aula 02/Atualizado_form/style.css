@@ -9,8 +9,10 @@
 
 body, html {
     background-image: linear-gradient(to right, #4b4a4a, #000000);
-    height: 100vh;
+    min-height: 100vh;
     width: vw;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -86,11 +88,23 @@ div#senha > input {
     margin: 5px auto
 }
 
-i {
-    position: inherit ;
-    font-size: 25px;
-    color: #000000;
+div#registro > p {
+    display: block;
+    text-align: center;
 }
+
+div#checkbox > label {
+    display: block;
+    text-align: center;
+}
+
+i {
+    position: relative ;
+    font-size: 25px;
+    color: #000000;  
+    transform: translate(-130%);
+}
+
 
 form > input[type=submit], a.botao {
     display: block;

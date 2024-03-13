@@ -2,27 +2,58 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #4b4a4a, #000000);
     }
 
     section#login {
-        width: 80vw;
+        width: 756px;
     }
 
     section#login > div#formulario {
         float: center;
         width: 100%;
+        margin-top: 0px;
     }
 
+    form > input[type=submit], a.botao {
+        width: 30%;
+        height: 30px; 
+        text-align: center;
+    }
+ 
+    div#login > input {
+        
+        width: 30%;
+        height: 40px;
+        padding-top: 0px;
+        margin-top: 5px;
+        border-radius: 20px;
+        margin: 10px auto
+    }
+    
+    div#senha > input {
+        width: 30%;
+        height: 40px;
+        padding-top: 0px;
+        margin-top: 5px;
+        border-radius: 20px;
+        margin: 10px auto
+    }
+
+    label > .botao > i {
+        color: #ffffff;
+        transform: translate(750%);
+   }
+   
 }
 
 @media screen and (min-width: 993px) {
     body {
-        background-image: linear-gradient(to bottom, #49a09d, #5f2c82);
+        background-image: linear-gradient(to bottom, #4b4a4a, #000000);
     }
 
     section#login {
-        width: 950px;
+        width: 956px;
     }
 
     section#login > div#imagem {
@@ -32,8 +63,42 @@
     }
 
     section#login > div#formulario {
-        float: center;
-        width: 50%
+        float: left;
+        width: 50%;
+        margin-top: 100px;
+        text-align: center;
     }
+
+    form > input[type=submit], a.botao {
+        width: 50%;
+        height: 40px; 
+        text-align: center;
+    }
+
+    div#login > input {
+        width: 50%;
+        height: 40px;
+        padding-top: 0px;
+        margin-top: 5px;
+        border-radius: 20px;
+        margin: 10px auto
+    }
+    
+    div#senha > input {
+        width: 50%;
+        height: 40px;
+        padding-top: 0px;
+        margin-top: 5px;
+        border-radius: 20px;
+        margin: 10px auto
+    }
+
+    label > .botao > i {
+        color: #ffffff;
+        transform: translate(750%);
+   }
+
+
+
 }
 

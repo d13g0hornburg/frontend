@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\style.css">
+    <link rel="stylesheet" href="\media-query.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Tela de Login</title>
+</head>
+    <body>
+        <div>
+
+        </div>
+        <div class="login">
+            <div class="img-usuario">
+                <img src="\images\moss.png" alt="">
+            </div>
+            <h2>Login</h2>
+            <form id="login-form" action="/login" method="post">
+                <i class='bx bxs-user'></i>
+                <div class="campo" >
+                    <input  type="text" name="login" required>
+                    <label>Usuário</label>
+                </div><br>
+                <i class='bx bx-lock-alt' ></i>
+                <div class="campo">
+                    <input type="password" name="senha" required>
+                    <label>Senha</label>
+                </div>
+                    <input type="checkbox" checked="checked" class="checkbox">
+                    <label>Lembrar-me</label>
+                    <button>Entrar</button><br>
+                    <a class="esqueci" href="/html/esqueci.html">Esqueci a senha!</a>
+            </form>
+        </div>
+        <div>
+
+        </div>
+    </body>
+</html>

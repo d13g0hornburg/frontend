@@ -1,0 +1,227 @@
+@charset "UTF-8";
+body {
+    background: linear-gradient(-105deg, #320a68, #144d8f, 75%, #7c15ac);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+.login {
+    background-color: rgba(0,0,0, 0.4);
+    width: 50%;
+    padding: 40px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow:#000000 0 20px 20px;
+    position: relative;
+}
+
+.login h2 {
+    color: white;
+    text-align: center;
+    margin: 20px 0 30px;
+    font-family: arial;
+}
+
+.login .campo {
+    position: relative;
+}
+
+.login i {
+    position: relative;
+    font-size: 25px;
+    left: 50%;
+}
+
+.login .campo input {
+
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    outline: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.login .campo label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1em;
+    color: white;
+    font-family: Arial;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login .campo input:focus~label,
+.login .campo input:valid~label {
+    top: -20px;
+    left: 0;
+    color: violet;
+    font-size: 12px;
+}
+
+.login button {
+    display:block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #3c269c, #eb7a80);
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+a.esqueci {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right, #3c269c, #eb7a80);
+    padding: 0px 0px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.login p {
+    margin-bottom: 50px;
+    font-size: 1em;
+    line-height: 30px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.checkbox {
+    position: relative;
+    top: 50%;
+    left: 30%;
+    margin-bottom: 30px;
+}
+
+.login label {
+    position: relative;
+    top: 50%;
+    left: 30%;
+
+}
+
+
+.img-usuario {
+    background-color: purple;
+    width: 60px;
+    height: 60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -5%;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-usuario img {
+    width: 80%;
+
+}
+
+
+/* estilo home */
+
+.home {
+    background-color: white;
+    width: 70%;
+    padding: 0px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow:#000000 0 20px 20px;
+    border-width: 100%;
+    position: relative;
+}
+
+#h1 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+
+.sidebar {
+    position: relative;
+    width: 30%;
+    background: linear-gradient(-105deg, #320a68, #144d8f, 75%, #7c15ac);
+    height: 40vh;
+    color: #fff;
+    border-radius: 50px 0px 0px 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+    justify-content: center; 
+    
+}
+
+.sidebar a {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+    padding: 0px 0px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.home h1 {
+    position: relative;
+    color: rgb(0, 0, 0);
+}
